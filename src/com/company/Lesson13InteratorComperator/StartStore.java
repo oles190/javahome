@@ -8,7 +8,7 @@ public class StartStore {
         Scanner scanner = new Scanner(System.in);
         Store store = new Store();
         boolean a = true;
-
+        System.out.println("");
 
         System.out.println("Hello!!!");
 
