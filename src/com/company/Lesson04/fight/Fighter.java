@@ -1,7 +1,7 @@
 package com.company.Lesson04.fight;
 
 public class Fighter {
-    private String name;
+    public String name;
     private int hp;
    private int damage;
    private boolean isAlive = true;
