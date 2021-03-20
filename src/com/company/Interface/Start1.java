@@ -10,3 +10,4 @@ public class Start1 {
         Oles.eat();
     }
 }
+    //
