@@ -1,3 +1,0 @@
-Tom,19
-Kevin,23
-Jack ,40

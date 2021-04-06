@@ -24,7 +24,7 @@ for(String word:words){
         }
         System.out.println("Words what have more than 5 chars");
         for(String word:words) {
-            if(word.length()>=5){
+            if(word.length()>5){
                 System.out.println(word);
             }
         }

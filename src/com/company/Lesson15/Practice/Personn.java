@@ -8,15 +8,24 @@ public class Person {
     private Integer age;
     private String  surname;
 
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public Person(String name, String surname, Integer age) {
         this.name = name;
         this.age = age;
         this.surname = surname;
 
+
     }
     public Person (){
 
     }
+
+
+
 
     public String getName() {
         return name;
@@ -28,7 +37,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return getName() + " "+ getSurname()+ " "+ getAge();
+        return getName() + " "+ " "+ getAge();
     }
 
     public String getSurname() {
